@@ -8,7 +8,7 @@ import SignUp from './Pages/SignUp'
 import Header from './components/Header';
 import Footer from './components/Footer'
 import PrivateRoute from './components/PrivateRoute';
-import OnlyAdminPrivateRoute from '/client/src/components/OnlyAdminPrivateRoute.jsx';
+import OnlyAdminPrivateRoute from "@components/OnlyAdminPrivateRoute";
 import CreatePost from './pages/CreatePost';
 import UpdatePost from './Pages/UpdatePost';
 import PostPage from './Pages/PostPage';
