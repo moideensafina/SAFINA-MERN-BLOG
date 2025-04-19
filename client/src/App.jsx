@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '@pages/Home.jsx'
 import About from '@pages/About.jsx'
 import SignIn from '@pages/SignIn.jsx'
 import Dashboard from '@pages/Dashboard.jsx'
@@ -14,6 +13,7 @@ import UpdatePost from '@pages/UpdatePost.jsx';
 import PostPage from '@pages/PostPage.jsx';
 import ScrollToTop from '@components/ScrollToTop.jsx'
 import Search from '@pages/Search.jsx';
+import Home from '@Pages/Home';
 
 
 export default function App() {
