@@ -1,19 +1,20 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from '@pages/About.jsx'
-import SignIn from '@pages/SignIn.jsx'
-import Dashboard from '@pages/Dashboard.jsx'
-import Projects from '@pages/Projects.jsx'
-import SignUp from '@pages/SignUp.jsx'
-import Header from '@components/Header.jsx';
-import Footer from '@components/Footer.jsx'
-import PrivateRoute from '@components/PrivateRoute.jsx';
-import OnlyAdminPrivateRoute from '@components/OnlyAdminPrivateRoute.jsx';
-import CreatePost from '@pages/CreatePost.jsx';
-import UpdatePost from '@pages/UpdatePost.jsx';
-import PostPage from '@pages/PostPage.jsx';
-import ScrollToTop from '@components/ScrollToTop.jsx'
-import Search from '@pages/Search.jsx';
-import Home from '@Pages/Home';
+
+import About from './pages/About'
+import SignIn from './pages/SignIn'
+import Dashboard from './pages/Dashboard'
+import Projects from './pages/Projects'
+import SignUp from './pages/SignUp'
+import Header from './components/Header';
+import Footer from './components/Footer'
+import PrivateRoute from './components/PrivateRoute';
+import OnlyAdminPrivateRoute from './components/OnlyAdminPrivateRoute';
+import CreatePost from './pages/CreatePost';
+import UpdatePost from './pages/UpdatePost';
+import PostPage from './pages/PostPage';
+import ScrollToTop from './components/ScrollToTop'
+import Search from './pages/Search';
+import Home from './Pages/Home';
 
 
 export default function App() {
@@ -22,7 +23,7 @@ export default function App() {
     <ScrollToTop />
     <Header/>
     <Routes>
-    <Route path='/' element={<Home />} />
+    <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About />} />
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<SignUp />} />
